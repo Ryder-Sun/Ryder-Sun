@@ -6,7 +6,7 @@
   <img src="./avatar.jpg" width="180" alt="Ryder Sun avatar" />
   <br />
   <br />
-  <img src="https://komarev.com/ghpvc/?username=Ryder-MHumble&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Ryder-Sun&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
 </td>
 <td valign="middle">
 
@@ -16,8 +16,8 @@
   <a href="./README.zh.md">中文</a> | <a href="./README.md">English</a>
 </p>
 
-[![Followers](https://img.shields.io/github/followers/Ryder-MHumble?label=Followers&style=for-the-badge&color=0E75B6)](https://github.com/Ryder-MHumble?tab=followers)
-[![Stars](https://img.shields.io/github/stars/Ryder-MHumble?label=Total%20Stars&style=for-the-badge&color=F97316)](https://github.com/Ryder-MHumble?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/Ryder-Sun?label=Followers&style=for-the-badge&color=0E75B6)](https://github.com/Ryder-Sun?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Ryder-Sun?label=Total%20Stars&style=for-the-badge&color=F97316)](https://github.com/Ryder-Sun?tab=repositories)
 
 目前就职于中关村人工智能研究院的AI产品经理岗位，曾在智谱、美团等头部科技公司工作，我擅长0-1产品的全栈设计，包括服务体系、架构、迭代方向等等。我能通过研究、数据基础设施和执行系统连接成可用于生产的循环，构建代理原生产品。
 
@@ -56,7 +56,7 @@
 <tr>
 <td width="50%">
 
-#### 🧩 [Meldwork](https://github.com/Ryder-MHumble/Meldwork) `⭐ 232`
+#### 🧩 [Meldwork](https://github.com/Ryder-Sun/Meldwork) `⭐ 232`
 > 本地优先的桌面工作区，用于持久化多 Agent 任务、原生 CLI 会话和受控协作。
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
@@ -65,7 +65,7 @@
 </td>
 <td width="50%">
 
-#### 🌐 [Realm](https://github.com/Ryder-MHumble/Realm) `⭐ 27`
+#### 🌐 [Realm](https://github.com/Ryder-Sun/Realm) `⭐ 27`
 > AI Agent 活动的实时 3D 可视化，多 Agent 编排可视化器，并支持外部系统 REST API 接入。
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -76,7 +76,7 @@
 <tr>
 <td width="50%">
 
-#### 🔬 [EvoLabeler](https://github.com/Ryder-MHumble/EvoLabeler-AIAgent-MLOps) `⭐ 18`
+#### 🔬 [EvoLabeler](https://github.com/Ryder-Sun/EvoLabeler-AIAgent-MLOps) `⭐ 18`
 > 面向遥感目标检测的自进化 MLOps 引擎，基于 IDEATE 框架的 Multi-Agent 系统。
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -85,7 +85,7 @@
 </td>
 <td width="50%">
 
-#### 🎓 [Scholars-System](https://github.com/Ryder-MHumble/Scholars-System) `⭐ 10`
+#### 🎓 [Scholars-System](https://github.com/Ryder-Sun/Scholars-System) `⭐ 10`
 > 学术情报平台，基于知识图谱构建学者画像与人才发现能力。
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -96,7 +96,7 @@
 <tr>
 <td width="50%">
 
-#### 🐱 [Guameow](https://github.com/Ryder-MHumble/Guameow) `⭐ 8`
+#### 🐱 [Guameow](https://github.com/Ryder-Sun/Guameow) `⭐ 8`
 > 面向 Z 世代的 AI 玄学 App，包含每日运势、AI 聊天、塔罗和轻量互动循环。
 
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
@@ -105,7 +105,7 @@
 </td>
 <td width="50%">
 
-#### 🛰️ [TDA-YOLO](https://github.com/Ryder-MHumble/TDA-YOLO) `⭐ 7`
+#### 🛰️ [TDA-YOLO](https://github.com/Ryder-Sun/TDA-YOLO) `⭐ 7`
 > 面向无人机遥感目标检测的自适应 YOLO 框架，强化采样机制与检测头设计。
 
 ![Research](https://img.shields.io/badge/-%E7%A0%94%E7%A9%B6-1A3A5C?style=flat-square)
@@ -124,24 +124,14 @@
   <img src="./profile-3d-contrib/profile-gitblock.svg" width="100%" alt="Ryder Sun 3D GitHub contribution graph" />
 </p>
 
-## 个人主页
-
-<p align="center">
-  <a href="https://personal-resume-jet.vercel.app/">
-    <img src="https://user-images.githubusercontent.com/74038190/240304586-d48893bd-0757-481c-8d7e-ba3e163feae7.png" width="100%" alt="Ryder Sun personal site" />
-  </a>
-</p>
-
-更完整的履历、项目背景和工作方式，放在个人主页里。
-
 ## 联系方式
 
 如果你在做 AI 产品、Agent 系统、知识基础设施，或者需要把研究型原型推进到可运行交付，欢迎联系我。
 
 <p>
-  <a href="https://personal-resume-jet.vercel.app/"><img src="https://img.shields.io/badge/Website-Personal%20Site-0E75B6?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" /></a>
+  <a href="https://ryder-sun.github.io/3D-Personal-Website/"><img src="https://img.shields.io/badge/Website-Personal%20Site-0E75B6?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" /></a>
   <a href="mailto:mhumble0221@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/Ryder-MHumble"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/Ryder-Sun"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://space.bilibili.com/296920670?spm_id_from=333.1007.0.0"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" /></a>
   <a href="https://www.linkedin.com/in/ryder-sun"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.youtube.com/@MinghaoSun-w6s"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
