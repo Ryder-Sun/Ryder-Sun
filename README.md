@@ -55,7 +55,7 @@ Most of my work sits across `Python`, `TypeScript`, and `Dart`, with a bias towa
 <tr>
 <td width="50%">
 
-#### 🧩 [Meldwork](https://github.com/Ryder-Sun/Meldwork) `⭐ 232`
+#### 🧩 [Meldwork](https://github.com/Ryder-MHumble/Meldwork) `⭐ 232`
 > Local-first desktop workspace for persistent multi-agent work, native CLI sessions, and controlled collaboration.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
@@ -64,7 +64,7 @@ Most of my work sits across `Python`, `TypeScript`, and `Dart`, with a bias towa
 </td>
 <td width="50%">
 
-#### 🌐 [Realm](https://github.com/Ryder-Sun/Realm) `⭐ 27`
+#### 🌐 [Realm](https://github.com/Ryder-MHumble/Realm) `⭐ 27`
 > Real-time 3D visualization of AI agent activity — multi-agent orchestration visualizer with REST API integration.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -75,7 +75,7 @@ Most of my work sits across `Python`, `TypeScript`, and `Dart`, with a bias towa
 <tr>
 <td width="50%">
 
-#### 🔬 [EvoLabeler](https://github.com/Ryder-Sun/EvoLabeler-AIAgent-MLOps) `⭐ 18`
+#### 🔬 [EvoLabeler](https://github.com/Ryder-MHumble/EvoLabeler-AIAgent-MLOps) `⭐ 18`
 > Self-evolving MLOps engine for remote sensing — Multi-Agent system (IDEATE framework) for automated detection.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -84,7 +84,7 @@ Most of my work sits across `Python`, `TypeScript`, and `Dart`, with a bias towa
 </td>
 <td width="50%">
 
-#### 🎓 [Scholars-System](https://github.com/Ryder-Sun/Scholars-System) `⭐ 10`
+#### 🎓 [Scholars-System](https://github.com/Ryder-MHumble/Scholars-System) `⭐ 10`
 > Academic intelligence platform — knowledge graph-powered scholar profiling and talent discovery.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -95,7 +95,7 @@ Most of my work sits across `Python`, `TypeScript`, and `Dart`, with a bias towa
 <tr>
 <td width="50%">
 
-#### 🐱 [Guameow](https://github.com/Ryder-Sun/Guameow) `⭐ 8`
+#### 🐱 [Guameow](https://github.com/Ryder-MHumble/Guameow) `⭐ 8`
 > AI fortune app for Gen Z — daily fortune, AI chat, tarot, and playful interaction loops.
 
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
@@ -104,7 +104,7 @@ Most of my work sits across `Python`, `TypeScript`, and `Dart`, with a bias towa
 </td>
 <td width="50%">
 
-#### 🛰️ [TDA-YOLO](https://github.com/Ryder-Sun/TDA-YOLO) `⭐ 7`
+#### 🛰️ [TDA-YOLO](https://github.com/Ryder-MHumble/TDA-YOLO) `⭐ 7`
 > Adaptive YOLO framework for UAV remote sensing object detection with enhanced sampling and detection heads.
 
 ![Research](https://img.shields.io/badge/-Research-1A3A5C?style=flat-square)

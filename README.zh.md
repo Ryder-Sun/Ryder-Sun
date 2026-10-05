@@ -56,7 +56,7 @@
 <tr>
 <td width="50%">
 
-#### 🧩 [Meldwork](https://github.com/Ryder-Sun/Meldwork) `⭐ 232`
+#### 🧩 [Meldwork](https://github.com/Ryder-MHumble/Meldwork) `⭐ 232`
 > 本地优先的桌面工作区，用于持久化多 Agent 任务、原生 CLI 会话和受控协作。
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
@@ -65,7 +65,7 @@
 </td>
 <td width="50%">
 
-#### 🌐 [Realm](https://github.com/Ryder-Sun/Realm) `⭐ 27`
+#### 🌐 [Realm](https://github.com/Ryder-MHumble/Realm) `⭐ 27`
 > AI Agent 活动的实时 3D 可视化，多 Agent 编排可视化器，并支持外部系统 REST API 接入。
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -76,7 +76,7 @@
 <tr>
 <td width="50%">
 
-#### 🔬 [EvoLabeler](https://github.com/Ryder-Sun/EvoLabeler-AIAgent-MLOps) `⭐ 18`
+#### 🔬 [EvoLabeler](https://github.com/Ryder-MHumble/EvoLabeler-AIAgent-MLOps) `⭐ 18`
 > 面向遥感目标检测的自进化 MLOps 引擎，基于 IDEATE 框架的 Multi-Agent 系统。
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -85,7 +85,7 @@
 </td>
 <td width="50%">
 
-#### 🎓 [Scholars-System](https://github.com/Ryder-Sun/Scholars-System) `⭐ 10`
+#### 🎓 [Scholars-System](https://github.com/Ryder-MHumble/Scholars-System) `⭐ 10`
 > 学术情报平台，基于知识图谱构建学者画像与人才发现能力。
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -96,7 +96,7 @@
 <tr>
 <td width="50%">
 
-#### 🐱 [Guameow](https://github.com/Ryder-Sun/Guameow) `⭐ 8`
+#### 🐱 [Guameow](https://github.com/Ryder-MHumble/Guameow) `⭐ 8`
 > 面向 Z 世代的 AI 玄学 App，包含每日运势、AI 聊天、塔罗和轻量互动循环。
 
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
@@ -105,7 +105,7 @@
 </td>
 <td width="50%">
 
-#### 🛰️ [TDA-YOLO](https://github.com/Ryder-Sun/TDA-YOLO) `⭐ 7`
+#### 🛰️ [TDA-YOLO](https://github.com/Ryder-MHumble/TDA-YOLO) `⭐ 7`
 > 面向无人机遥感目标检测的自适应 YOLO 框架，强化采样机制与检测头设计。
 
 ![Research](https://img.shields.io/badge/-%E7%A0%94%E7%A9%B6-1A3A5C?style=flat-square)
