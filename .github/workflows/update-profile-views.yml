@@ -1,8 +1,8 @@
 name: Update Profile Views Badge
 
 on:
-  schedule: # 03:30 Asia/Shanghai == 19:30 UTC (after profile-3d)
-    - cron: "30 19 * * *"
+  schedule: # every 6h: 03:30 / 09:30 / 15:30 / 21:30 Asia/Shanghai
+    - cron: "30 1,7,13,19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add views-badge.svg scripts/profile-views-state.json
+          git add views-badge.svg scripts/profile-views-state.json README.md README.zh.md
           if ! git diff --staged --quiet; then
             git commit -m "chore: update profile views badge"
             git push
