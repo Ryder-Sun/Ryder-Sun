@@ -1,0 +1,38 @@
+name: Update Profile Views Badge
+
+on:
+  schedule: # 03:30 Asia/Shanghai == 19:30 UTC (after profile-3d)
+    - cron: "30 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-views
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Update views badge
+        run: node scripts/update-profile-views.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add views-badge.svg scripts/profile-views-state.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update profile views badge"
+            git push
+          fi

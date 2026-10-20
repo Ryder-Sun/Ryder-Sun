@@ -6,7 +6,7 @@
   <img src="./avatar.jpg" width="180" alt="Ryder Sun avatar" />
   <br />
   <br />
-  <img src="https://komarev.com/ghpvc/?username=Ryder-Sun&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  <img src="./views-badge.svg" alt="Profile views" />
 </td>
 <td valign="middle">
 
