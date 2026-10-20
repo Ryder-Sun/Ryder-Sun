@@ -15,7 +15,9 @@ const BADGE_PATH = "views-badge.svg";
 // where it stopped instead of resetting to zero.
 const BASELINE = 389;
 
-const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+// The traffic API rejects the default GITHUB_TOKEN ("Resource not accessible
+// by integration"), so a PAT must be provided via the PROFILE_VIEWS_TOKEN env.
+const token = process.env.PROFILE_VIEWS_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 
 const headers = {
   Accept: "application/vnd.github+json",
@@ -64,16 +66,17 @@ function totalViews(state) {
   return state.baseline + daysTotal;
 }
 
-async function fetchBadge(count) {
-  const response = await fetch(
-    `https://img.shields.io/badge/Profile_Views-${count}-0e75b6.svg?style=flat`,
-  );
+// Widths are pre-computed for the fixed label "Profile Views" (left cell
+// width 81) and per-digit counts (17px each), matching shields.io flat
+// badge geometry exactly.
+function renderBadge(count) {
+  const digits = String(count).length;
+  const rightWidth = 7 * digits + 10;
+  const totalWidth = 81 + rightWidth;
+  const rightCenter = 81 + rightWidth / 2 - 1;
+  const numberWidth = 70 * digits;
 
-  if (!response.ok) {
-    throw new Error(`shields.io failed: ${response.status} ${await response.text()}`);
-  }
-
-  return response.text();
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${totalWidth}" height="20" role="img" aria-label="Profile Views: ${count}"><title>Profile Views: ${count}</title><filter id="blur"><feGaussianBlur stdDeviation="16"/></filter><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="${totalWidth}" height="20" rx="3"/></clipPath><g clip-path="url(#r)"><rect width="81" height="20" fill="#555"/><rect x="81" width="${rightWidth}" height="20" fill="#0e75b6"/><rect width="${totalWidth}" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><g transform="scale(.1)"><g aria-hidden="true" fill="#010101"><text x="415" y="150" fill-opacity=".8" filter="url(#blur)" textLength="710">Profile Views</text><text x="415" y="150" fill-opacity=".3" textLength="710">Profile Views</text></g><text x="415" y="140" textLength="710">Profile Views</text></g><g transform="scale(.1)"><g aria-hidden="true" fill="#010101"><text x="${rightCenter * 10}" y="150" fill-opacity=".8" filter="url(#blur)" textLength="${numberWidth}">${count}</text><text x="${rightCenter * 10}" y="150" fill-opacity=".3" textLength="${numberWidth}">${count}</text></g><text x="${rightCenter * 10}" y="140" textLength="${numberWidth}">${count}</text></g></g></svg>`;
 }
 
 const traffic = await fetchTrafficViews();
@@ -81,6 +84,6 @@ const state = mergeDays(await loadState(), traffic);
 const count = totalViews(state);
 
 await writeFile(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`);
-await writeFile(BADGE_PATH, await fetchBadge(count));
+await writeFile(BADGE_PATH, renderBadge(count));
 
 console.log(`profile views: ${count}`);

@@ -25,7 +25,7 @@ jobs:
       - name: Update views badge
         run: node scripts/update-profile-views.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_VIEWS_TOKEN: ${{ secrets.PROFILE_VIEWS_TOKEN }}
 
       - name: Commit & Push
         run: |
